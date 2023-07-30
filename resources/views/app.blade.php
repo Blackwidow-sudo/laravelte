@@ -6,7 +6,7 @@
     <title>{{ config('app.name') }}</title>
     @vite('resources/ts/app.ts')
   </head>
-  <body>
+  <body class="antialiased">
     <noscript>
       <strong>We're sorry but the app doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>

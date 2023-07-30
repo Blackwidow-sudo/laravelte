@@ -1,13 +1,23 @@
 {
+    "name": "laravelte",
     "private": true,
     "type": "module",
     "scripts": {
         "dev": "vite",
-        "build": "vite build"
+        "build": "vite build",
+        "preview": "vite preview",
+        "check": "svelte-check --tsconfig ./tsconfig.json",
+        "format": "prettier --plugin-search-dir . --write ./resources/ts"
     },
     "devDependencies": {
+        "@sveltejs/vite-plugin-svelte": "^2.4.3",
+        "@tsconfig/svelte": "^5.0.0",
         "axios": "^1.1.2",
-        "laravel-vite-plugin": "^0.7.5",
+        "laravel-vite-plugin": "^0.7.8",
+        "svelte": "^4.1.1",
+        "svelte-check": "^3.4.6",
+        "tslib": "^2.6.1",
+        "typescript": "^5.1.6",
         "vite": "^4.0.0"
     }
 }

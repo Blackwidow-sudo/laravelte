@@ -1,7 +1,7 @@
-import type { AxiosStatic } from 'axios';
+import type { AxiosStatic } from 'axios'
 
 declare global {
-    interface Window {
-        axios: AxiosStatic;
-    }
+	interface Window {
+		axios: AxiosStatic
+	}
 }

@@ -1,7 +1,6 @@
 <script lang="ts">
-	import Counter from '../components/Counter.svelte'
 </script>
 
 <div>
-	<Counter />
+	<h1>Hello HomePage</h1>
 </div>
